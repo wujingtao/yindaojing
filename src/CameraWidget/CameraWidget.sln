@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraWidget", "CameraWidget.vcxproj", "{50A41A5C-8F73-41DE-81B7-848433BE319F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A41A5C-8F73-41DE-81B7-848433BE319F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50A41A5C-8F73-41DE-81B7-848433BE319F}.Debug|Win32.Build.0 = Debug|Win32
+		{50A41A5C-8F73-41DE-81B7-848433BE319F}.Release|Win32.ActiveCfg = Release|Win32
+		{50A41A5C-8F73-41DE-81B7-848433BE319F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

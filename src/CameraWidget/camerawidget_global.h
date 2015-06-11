@@ -1,0 +1,12 @@
+#ifndef CAMERAWIDGET_GLOBAL_H
+#define CAMERAWIDGET_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef CAMERAWIDGET_LIB
+# define CAMERAWIDGET_EXPORT Q_DECL_EXPORT
+#else
+# define CAMERAWIDGET_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CAMERAWIDGET_GLOBAL_H

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>imagewidget</class>
+ <widget class="QWidget" name="imagewidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="saArea">
+     <property name="widgetResizable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>662</width>
+        <height>681</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>320</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>320</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <widget class="QPushButton" name="pbBack">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbIn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>放大</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbOut">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>180</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>缩小</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbLeft">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向左旋转</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbRight">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向右旋转</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbBack_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>100</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>亮度对比度</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbPos">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>630</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbNormal">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>原始大小</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbWindow">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>260</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>视图大小</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbSave">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>80</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>保存图片</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

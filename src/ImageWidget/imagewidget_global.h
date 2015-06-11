@@ -1,0 +1,12 @@
+#ifndef IMAGEWIDGET_GLOBAL_H
+#define IMAGEWIDGET_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef IMAGEWIDGET_LIB
+# define IMAGEWIDGET_EXPORT Q_DECL_EXPORT
+#else
+# define IMAGEWIDGET_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // IMAGEWIDGET_GLOBAL_H

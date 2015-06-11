@@ -1,0 +1,12 @@
+#ifndef FILECENTRE_GLOBAL_H
+#define FILECENTRE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef FILECENTRE_LIB
+# define FILECENTRE_EXPORT Q_DECL_EXPORT
+#else
+# define FILECENTRE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // FILECENTRE_GLOBAL_H

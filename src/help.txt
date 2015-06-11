@@ -1,0 +1,8 @@
+FileCentre ImageAlgorithm 
+CameraWidget
+RecordWidget
+ReportWidget
+ImageWidget
+MyLabel
+MainWindow
+D:/localsvn/软件研发/阴道镜5.3/src/test/report1.xml

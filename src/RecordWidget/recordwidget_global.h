@@ -1,0 +1,12 @@
+#ifndef RECORDWIDGET_GLOBAL_H
+#define RECORDWIDGET_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef RECORDWIDGET_LIB
+# define RECORDWIDGET_EXPORT Q_DECL_EXPORT
+#else
+# define RECORDWIDGET_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // RECORDWIDGET_GLOBAL_H
